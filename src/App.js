@@ -1,11 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from './Navbar';
+import Home from './Home';
 
 function App() {
+  const title = 'Welcome to Dojo Blog'
+  const link = 'https://google.com'
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+      <Navbar />
+      <header>
+        {/* <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
@@ -16,8 +20,13 @@ function App() {
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
       </header>
+      <div className="content">
+        <h1>{ title }</h1>
+        <a href={link} rel="noopener noreferrer" target='_blank'>Google</a>
+        <Home />
+      </div>
     </div>
   );
 }
