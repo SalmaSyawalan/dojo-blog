@@ -1,0 +1,22 @@
+{
+    "blogs": [
+        {
+            "title": "White Core Phylosophy",
+            "body": "There are so few scholars who even know about core, especially white, black, and void core. For now, I will explain about white core first.",
+            "author": "alius", 
+            "id": 1
+        },
+        { 
+            "title": "Solidify the Stardust to Use It as Weapon", 
+            "body": "At first, people underestimate my power because my power seems harmless and just aesthetic (stardust is ofcourse beautiful). Because people sees my power is harmless, they think I'm fragile since (they think) I can't defend myself with my owm power. But little they know, my power turns out to be one of the strongest", 
+            "author": "nebula", 
+            "id": 2
+        },
+        {
+            "title": "Adjust the Range of Extreme Gravity", 
+            "body": "When I was a kid, people often envy me just because I have this power. But in reality, my power is hard to control. One mistake and everything around me will vanish instantly", 
+            "author": "quasar", 
+            "id": 3
+        }
+    ]
+}

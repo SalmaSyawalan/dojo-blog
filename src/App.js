@@ -3,7 +3,7 @@ import Home from './Home';
 
 function App() {
   const title = 'Welcome to Dojo Blog'
-  const link = 'https://google.com'
+  // const link = 'https://google.com'
 
   return (
     <div className="App">
