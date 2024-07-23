@@ -4,7 +4,8 @@
 * {
   margin: 0;
   font-family: "Quicksand";
-  color: #333;
+  color: #f2f2f2;
+  background-color: #161515;
 }
 
 .navbar {
@@ -17,7 +18,7 @@
 }
 
 .navbar h1 {
-  color: #f1356d;
+  color: #b393ff;
 }
 
 .navbar .links {
@@ -31,11 +32,35 @@
 }
 
 .navbar a:hover {
-  color: #f1356d;
+  color: #b393ff;
 }
 
 .content {
   max-width: 600px;
   margin: 40px auto;
-  padding: 20px;
+  padding: 0px;
+}
+
+.blog-preview{
+  padding: 15px 20px;
+  margin: 10px 0px;
+  border: 1px solid #554679;
+  border-radius: 10px;
+}
+
+.blog-preview:hover{
+  box-shadow: 1px 3px 5px #b393ffcb;
+}
+
+.blog-preview h2{
+  font-size: 20px;
+  /* color: #f1356d; */
+  color: #b393ff;
+  margin-bottom: 8px;
+}
+
+.sub-header{
+  margin: 20px 0px;
+  padding: 20px 0px;
+  border-bottom: 1px solid #f2f2f2;
 }
