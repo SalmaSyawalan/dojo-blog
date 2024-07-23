@@ -24,7 +24,7 @@ function App() {
       </header>
       <div className="content">
         <h1>{ title }</h1>
-        <a href={link} rel="noopener noreferrer" target='_blank'>Google</a>
+        {/* <a href={link} rel="noopener noreferrer" target='_blank'>Google</a> */}
         <Home />
       </div>
     </div>
