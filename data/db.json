@@ -1,22 +1,46 @@
 {
-    "blogs": [
-        {
-            "title": "White Core Phylosophy",
-            "body": "There are so few scholars who even know about core, especially white, black, and void core. For now, I will explain about white core first.",
-            "author": "alius", 
-            "id": 1
-        },
-        { 
-            "title": "Solidify the Stardust to Use It as Weapon", 
-            "body": "At first, people underestimate my power because my power seems harmless and just aesthetic (stardust is ofcourse beautiful). Because people sees my power is harmless, they think I'm fragile since (they think) I can't defend myself with my owm power. But little they know, my power turns out to be one of the strongest", 
-            "author": "nebula", 
-            "id": 2
-        },
-        {
-            "title": "Adjust the Range of Extreme Gravity", 
-            "body": "When I was a kid, people often envy me just because I have this power. But in reality, my power is hard to control. One mistake and everything around me will vanish instantly", 
-            "author": "quasar", 
-            "id": 3
-        }
-    ]
+  "blogs": [
+    {
+      "title": "White Core Phylosophy",
+      "body": "There are so few scholars who even know about core, especially white, black, and void core. For now, I will explain about white core first.",
+      "author": "Alius",
+      "id": "1"
+    },
+    {
+      "title": "Solidify the Stardust to Use It as Weapon",
+      "body": "At first, people underestimate my power because my power seems harmless and just aesthetic (stardust is ofcourse beautiful). Because people sees my power is harmless, they think I'm fragile since (they think) I can't defend myself with my owm power. But little they know, my power turns out to be one of the strongest",
+      "author": "Nebula",
+      "id": "2"
+    },
+    {
+      "title": "Adjust the Range of Extreme Gravity",
+      "body": "When I was a kid, people often envy me just because I have this power. But in reality, my power is hard to control. One mistake and everything around me will vanish instantly",
+      "author": "Quasar",
+      "id": "3"
+    },
+    {
+      "title": "Opening Party!",
+      "body": "Why do we use it?\nIt is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).\n\n\nWhere does it come from?\nContrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of \"de Finibus Bonorum et Malorum\" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, \"Lorem ipsum dolor sit amet..\", comes from a line in section 1.10.32.\n\nThe standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from \"de Finibus Bonorum et Malorum\" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.\n\nWhere can I get some?\nThere are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.",
+      "author": "yoshi",
+      "id": "4"
+    },
+    {
+      "id": "4e3e",
+      "title": "Full Moon",
+      "body": "A blog about how important the fullmoon phase is",
+      "author": "Luna"
+    },
+    {
+      "id": "76de",
+      "title": "Void Orbs",
+      "body": "Only few people know about this kind of orb",
+      "author": "Alius"
+    },
+    {
+      "id": "5324",
+      "title": "Darkness Orb",
+      "body": "The orb that believed to be the cursed one",
+      "author": "Alius"
+    }
+  ]
 }

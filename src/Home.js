@@ -1,11 +1,8 @@
-import { useEffect, useState } from 'react';
+// import { useEffect, useState } from 'react';
 import BlogList from './BlogList';
+import useFetch from './useFetch';
 
 const Home = () => {
-    const [blogs, setBlogs] = useState(null);
-    const [isLoading, setLoading] = useState(true);
-    const [error, setError] = useState(null);
-
     // const handleDelete = (id) => {
     //     // setName('Luigi');
     //     // setAge(age + 1);
@@ -13,28 +10,11 @@ const Home = () => {
     //     setBlogs(updatedBlogs);
     // }
 
-    useEffect(() => {
-        setTimeout(() =>{
-            fetch("http://localhost:8000/blogs")
-                .then(res => {
-                    if(!res.ok){   //when the endpoint still give the response but not the desired response. For example, happened when the json server is on but the path is wrong
-                        throw Error('could not fetch data from that resource');
-                    }
-                    return res.json();
-                })
-                .then(data => {
-                    setBlogs(data);
-                    setLoading(false);
-                })
-                .catch(err => {     //when unable to fetch. When json server is off, that port become unavailable. By that, the app can't fetch the data
-                    setLoading(false);
-                    setError(err.message);
-                })
-        }, 1000)
-    }, [])
+    const { data: blogs, isLoading, error } = useFetch("http://localhost:8000/blogs");
 
     return ( 
         <div className="home">
+            <h1>Welcome to Dojo Blog</h1>
             {isLoading && <div style={{marginTop:"80px"}}>Loading...</div>}
             {error && <div style={{marginTop:"80px"}}>{error}</div>}
             {blogs && <BlogList blogs={blogs} title='All Blogs'/>}
